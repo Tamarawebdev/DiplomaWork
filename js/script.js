@@ -19,12 +19,14 @@ window.addEventListener("DOMContentLoaded", function() {
 
             closeBtn.addEventListener("click", function(e) {
                 popupEngineer.style.display = "none";
+                document.body.style.overflow = "";
             });
 
 
             window.addEventListener("click", function(e) {
                 if (e.target == popupEngineer) {
                     popupEngineer.style.display = "none";
+                    document.body.style.overflow = "";
                 }
             });
 
@@ -40,16 +42,18 @@ window.addEventListener("DOMContentLoaded", function() {
 
             closeCallBtn.addEventListener("click", function(e) {
                 popupCall.style.display = "none";
+                document.body.style.overflow = "";
             });
 
             window.addEventListener("click", function(e) {
                 if (e.target == popupCall) {
                     popupCall.style.display = "none";
+                    document.body.style.overflow = "";
                 }
             });
 
 
-        console.log(closeBtn);
+        console.log(phoneLinkBtn);
 
 
 
