@@ -48,7 +48,7 @@ window.addEventListener("DOMContentLoaded", function() {
             setTimeout(function () {
                 popupCall.style.display = "block";
                 document.body.style.overflow = "hidden";
-              }, 6000);
+              }, 60000);
 
         //console.log(phoneLinkBtn);
 
