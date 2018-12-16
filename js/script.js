@@ -7,7 +7,6 @@ window.addEventListener("DOMContentLoaded", function() {
         let popupEngineerBtn = document.querySelectorAll(".popup_engineer_btn"),
             popupEngineer = document.querySelector(".popup_engineer"),
             closeBtn = document.querySelectorAll(".popup_engineer_close, .popup_close");
-            //closeCallBtn = document.querySelector(".popup_close");
 
 
             popupEngineerBtn.forEach(function(e) {
@@ -45,15 +44,10 @@ window.addEventListener("DOMContentLoaded", function() {
                 });
             });
 
-            setTimeout(function () {
-                popupCall.style.display = "block";
-                document.body.style.overflow = "hidden";
-              }, 60000);
-
-        //console.log(phoneLinkBtn);
-
-
-
+        setTimeout(function () {
+            popupCall.style.display = "block";
+            document.body.style.overflow = "hidden";
+        }, 60000);
 
 
 

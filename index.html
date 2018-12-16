@@ -19,12 +19,14 @@
 
   <body>
   
-	  <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/timer.js"></script>
+    
+	  <!-- <script src="js/images.js"></script> -->
 	  <!-- <script src="dist/main.js"></script> -->
     <!-- <script src="js/script.js"></script>
-    <script src="js/tabs.js"></script>
-    <script src="js/calc.js"></script>
-    <script src="js/timer.js"></script> -->
+    <script src="js/calc.js"></script> -->
     <!-- <script src="src/img.js"></script>  -->
     <header class="header">
       <div class="container">
@@ -355,16 +357,16 @@
         <!-- Slider -->
         <div class="decoration_slider">
             <div class="decoration_item  wow fadeInUp">
-              <div class="internal_link no_click after_click"><a>Внутренняя отделка</a></div>
+              <div data-tab="0" class="internal_link no_click after_click"><a>Внутренняя отделка</a></div>
             </div>
             <div class="decoration_item wow fadeInUp" data-wow-delay="0.1s">
-              <div class="external_link no_click"><a>Внешняя отделка</a></div>
+              <div data-tab="1" class="external_link no_click"><a>Внешняя отделка</a></div>
             </div>
             <div class="decoration_item wow fadeInUp" data-wow-delay="0.2s">
-              <div class="rising_link no_click"><a>Выносное остекление</a></div>
+              <div data-tab="2" class="rising_link no_click"><a>Выносное остекление</a></div>
             </div>
             <div class="decoration_item wow fadeInUp" data-wow-delay="0.3s">
-              <div class="roof_link no_click"><a>Крыша на балкон</a></div>
+              <div data-tab="3" class="roof_link no_click"><a>Крыша на балкон</a></div>
             </div>
         </div>
 
@@ -726,8 +728,8 @@
                 <div class="container1">
                   <div class="numbers1"><div ><span id="days">08</span></div><div class="description1">Дней</div></div>
                   <div class="numbers1"><div ><span id="hours">18</span></div><div class="description1">Часов</div></div>
-                  <div class="numbers1"><div id="minutes"><span>33</span></div><div class="description1">Минут</div></div>
-                  <div class="numbers1"><div id="seconds"><span>44</span></div><div class="description1">Секунд</div></div>      
+                  <div class="numbers1"><div><span id="minutes">33</span></div><div class="description1">Минут</div></div>
+                  <div class="numbers1"><div><span id="seconds">44</span></div><div class="description1">Секунд</div></div>      
                 </div>
               </div>
           </div>
